@@ -35,3 +35,8 @@ spring:
 ```
 #### 1.2 我们也可以在idea里面直接配置参数
 ![options](images/配置.png)
+
+#### 1.3 打完package。使用命令行模式启动
+```shell script
+java -jar ${package 地址} --soring.profiles.active=${环境}
+```
